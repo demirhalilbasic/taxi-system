@@ -1,15 +1,15 @@
 
-# 🚕 Taxi System Simulation v1.0
+# 🚕 Taxi System Simulation
 
-The Taxi System Simulation project is a significant endeavor developed in the shell (bash) programming language. It serves as an impressive showcase of proficiency in shell scripting, combining CRUD (Create, Read, Update, Delete) functionality with additional features and capabilities. The system consists of two distinct sides: the admin and user interfaces. Upon login, users are directed to either the admin or user side based on the provided login parameters.
+The Taxi System Simulation project is a shell (bash) scripting application demonstrating proficiency in shell programming. It combines CRUD (Create, Read, Update, Delete) operations with additional features across two interfaces: admin and user. Upon login, users are directed to either the admin or user side based on their credentials.
 
-The system is dynamic, as predefined arrays of admins and users can be potentially updated through functions, enabling the addition of new users to the system. The admin interface offers a range of options, including adding, editing, and deleting information about available taxi vehicles. Some of the editable parameters include the vehicle's license plate number (serving as an identifier), its status (whether it's available or occupied), and additional information that helps users recognize the specific vehicle.
+The system is dynamic, with predefined arrays of admins and users that can be updated via functions to add new users. The admin interface provides options to add, edit and delete taxi vehicle information. Editable parameters include the vehicle's license plate number (identifier), status (available or occupied) and other descriptive details to help users identify vehicles.
 
-While the user interface offers a more limited set of options, they are equally significant. The standout feature is the ability to reserve a taxi, considering parameters such as the starting point, destination, reservation time, and the number of passengers. The system calculates the reservation price based on these factors, generating a random number as the base fare while factoring in the given parameters (displayed in the Preview section below). Additionally, users can access a history of their past taxi reservations.
+The user interface offers functionality for reserving taxis by specifying the starting point, destination, reservation time, and number of passengers. The system calculates the reservation price based on these factors, using a randomized base fare combined with user inputs (shown in the Preview section below). Users can also view their history of past taxi reservations.
 
 ## 👀 Preview
 
-![App Screenshot](https://i.postimg.cc/XvV08PH5/taxi-system-simulation.png)
+![App Screenshot](images/taxi_system_simulation.png)
 
 ## ⚙️ Installation
 
@@ -33,9 +33,10 @@ chmod +x main_taxi.sh
 
 The Taxi System Simulation has been created and thoroughly tested on Zorin OS Lite, a Linux distribution.
 
-## 🔗 Links
+## ✉️ Contact
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/demir-halilbasic/)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/demir-halilbasic/) [![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DemkyDesignHub)
+
 
 ## 👍 Feedback
 
